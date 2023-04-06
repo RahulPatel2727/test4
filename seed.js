@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Product = require('./models/product');
 
 
-mongoose.connect('mongodb://localhost:27017/shopping-app')
+mongoose.connect('mongodb://localhost:27017/test')
     .then(() => console.log('DB Connected'))
     .catch((err) => console.log(err));
 
